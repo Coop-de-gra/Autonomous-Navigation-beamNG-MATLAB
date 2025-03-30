@@ -11,9 +11,9 @@
 
 * [beamNG - MATLAB / simulink integration dependencies](https://documentation.beamng.com/beamng_tech/matlab_and_simulink/)
   * beamNG.tech, beamNG.py, beamNG-MATLABL-simulink-integration, MATLAB, Python
-* naivgation toolbox
-* sensor fusion and tracking toolbox
-* robotics system toolbox
+* [naivgation toolbox](https://www.mathworks.com/help/nav/index.html)
+* [sensor fusion and tracking toolbox](https://www.mathworks.com/help/fusion/index.html)
+* [robotics system toolbox](https://www.mathworks.com/help/robotics/index.html)
 
 ### resources
 
