@@ -17,8 +17,7 @@
 
 ### resources
 
-* mathworks videos and webinars series
-* [https://www.mathworks.com/videos/series/autonomous-navigation.html](google.com)
+* mathworks videos and webinars series ([Autonomous Navigation](https://www.mathworks.com/videos/series/autonomous-navigation.html))
   * 6 part series
   * take notes that are in scope - should have an easy video by the end
   * going to have to work off the beaten path when integrating with beamNG (we'll see)
