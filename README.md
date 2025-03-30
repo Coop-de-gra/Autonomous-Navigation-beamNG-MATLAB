@@ -21,7 +21,3 @@
   * 6 part series
   * take notes that are in scope - should have an easy video by the end
   * going to have to work off the beaten path when integrating with beamNG (we'll see)
- 
-### link to progression journal/logs
-
-*[](link)
