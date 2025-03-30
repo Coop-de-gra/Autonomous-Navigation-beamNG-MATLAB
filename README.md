@@ -9,7 +9,7 @@
 
 ### the tools I'll need
 
-* beamNG - MATLAB / simulink integration dependencies
+* [beamNG - MATLAB / simulink integration dependencies](https://documentation.beamng.com/beamng_tech/matlab_and_simulink/)
   * beamNG.tech, beamNG.py, beamNG-MATLABL-simulink-integration, MATLAB, Python
 * naivgation toolbox
 * sensor fusion and tracking toolbox
