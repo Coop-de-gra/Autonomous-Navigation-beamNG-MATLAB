@@ -24,4 +24,4 @@
 
  ### topics
 
- * localization, sensor fusion, partical filters, mapping alogrithms, navigation algorithms, 
+ * localization, pose estimation, sensor fusion, partical filters, motion planning, mapping, algorithms
