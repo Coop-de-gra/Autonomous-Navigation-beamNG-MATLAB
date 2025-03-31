@@ -36,7 +36,22 @@
 
 ## [path planning with A*, RRT, RRT*](https://www.mathworks.com/videos/autonomous-navigation-part-4-path-planning-with-a-and-rrt-1594987710455.html)
 
-*
+* two types of path planning: search based (A*), sampling based (RRT, RRT*)
+* path is a sequence of pose states the connect the starting pose and the ending pose
+* motion planning is path planning with the addition of accel, velocity, rotation, etc.
+* for ex. states are: X and Y orientation and theta
+* in a nutshell, path planning is finding an efficient way to build a tree to the goal
+* search based goes cell by cell and estimates a cost thats comparable to distance from start
+* A* goes a step further and introduces a heuristic that measures the straight line distance between a cell and the goal, thus influencing the exploration of more promissing cells first before the non promising ones and brute forcing every cell
+* A* can become computationally expensive as the map space increases
+* random sampling can be a waste of time but done right is where you get RRT and RRT* (Rapidly exploring Random Trees)
+* RRT nutshel: choose random node on map > place a node in a straight line from start to said random node at a max distance from closest current node > this causes rapid exploration of map in fewer nodes.
+* Eventually node will come within threshold of goal and a path is considered found.
+* if you are looking for shortest distance, thats where RRT* comes in
+* RRT* > node selection is exactly the same > but when a node is placed, a search radius is opened, and the nodes within the radius are chosen to try to create a shorter path
+* If this shorter path is found, then the route is optimized and this can be continued until path is optimzed.
+* eventually throught this optimization the tree would have generated paths to almost any part of the map and now we have a functional way to navigate the entire map.
+* RRT* function is within Nagivation Toolbox in MATLAB
 
 ## [exteded object tracking](https://www.mathworks.com/videos/autonomous-navigation-part-5-what-is-extended-object-tracking-1595498165103.html)
 
